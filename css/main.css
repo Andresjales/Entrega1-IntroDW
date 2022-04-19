@@ -45,7 +45,7 @@ header ul li a{
 
 /* Presentación */
 
-main .presentacion{
+.presentacion{
     background-color: var(--color-alpha);
     height: 100vh;
     width: 100%;
@@ -56,10 +56,29 @@ main .presentacion{
 
 /* Sobre Mí */
 
-main .sobre_mi{
+.sobre_mi{
     background-color: var(--color-beta);
     height: 100vh;
     width: 100%;
+}
+
+.sobre_mi .titulo_sobre_mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre_mi img{
+    width: 10em;
+}
+
+.sobre_mi .texto_sobre_mi{
+    text-align: center;
+    position: relative;
+    height: fit-content;
+    width: 50em;
+    max-width: 80vw;
+    margin: 5em auto;
 }
 
 /* Habilidades */
