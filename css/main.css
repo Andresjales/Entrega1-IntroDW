@@ -9,37 +9,33 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 100vw;
 
     font-family: 'Merriweather', serif;
-}
-
-body{
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
 }
 
 /* Barra de navegación */
 
 header{
-    position: fixed;
+    display: flex;
+    position: absolute;
     top: 50%;
     right: 0;
-    width: 150px;
-    padding: 6px 14px;
+    width: 8.5em;
     transform: translateY(-50%);
+    font-size: 0.8rem;
 }
 
 header ul li{
     position: relative;
-    height: 50px;
-    width: 100%;
-    margin: 0 5px;
+    height: 4em;
     list-style: none;
-    line-height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 header ul li a{
+    position: fixed;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -47,11 +43,18 @@ header ul li a{
 
 /* Main */
 
+/* Presentación */
+
 main .presentacion{
     background-color: var(--color-alpha);
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* Sobre Mí */
 
 main .sobre_mi{
     background-color: var(--color-beta);
@@ -59,11 +62,15 @@ main .sobre_mi{
     width: 100%;
 }
 
+/* Habilidades */
+
 main .habilidades{
     background-color: var(--color-alpha);
     height: 100vh;
     width: 100%;
 }
+
+/* Mis Proyectos */
 
 main .mis_proyectos{
     background-color: var(--color-beta);
@@ -72,8 +79,24 @@ main .mis_proyectos{
     overflow: hidden;
 }
 
+/* Contacto */
+
 main .contacto{
     background-color: var(--color-alpha);
     height: 100vh;
     width: 100%;
+}
+
+/* Otros */
+
+.text{
+    font-size: var(--font-size-text);
+}
+
+.subtitle{
+    font-size: var(--font-size-subtitle);
+}
+
+.title{
+    font-size: var(--font-size-title);
 }

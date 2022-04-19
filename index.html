@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Andresjales</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px)">
-    <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 820px)">
+    <link rel="stylesheet" href="./css/medium.css" media="(max-aspect-ratio: 1/1)">
+    <link rel="stylesheet" href="./css/large.css" media="(min-aspect-ratio: 1/1)">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -21,46 +21,36 @@
             <li>
                 <a href="">
                     <!-- <i class='bx bx-badge'></i> -->
-                    <div class="active">
-                        <i class='bx bxs-badge'></i>
-                        <span class="link_name">Presentación</span>
-                    </div>
+                    <i class='bx bxs-badge'></i>
+                    <span class="link_name">Presentación</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <!-- <i class='bx bx-badge'></i> -->
-                    <div class="active">
-                        <i class='bx bxs-badge'></i>
-                        <span class="link_name">Sobre Mí</span>
-                    </div>
+                    <i class='bx bxs-badge'></i>
+                    <span class="link_name">Sobre Mí</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <!-- <i class='bx bx-badge'></i> -->
-                    <div class="active">
-                        <i class='bx bxs-badge'></i>
-                        <span class="link_name">Habilidades</span>
-                    </div>
+                    <i class='bx bxs-badge'></i>
+                    <span class="link_name">Habilidades</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <!-- <i class='bx bx-badge'></i> -->
-                    <div class="active">
-                        <i class='bx bxs-badge'></i>
-                        <span class="link_name">Mis Proyectos</span>
-                    </div>
+                    <i class='bx bxs-badge'></i>
+                    <span class="link_name">Mis Proyectos</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <!-- <i class='bx bx-badge'></i> -->
-                    <div class="active">
-                        <i class='bx bxs-badge'></i>
-                        <span class="link_name">Contacto</span>
-                    </div>
+                    <i class='bx bxs-badge'></i>
+                    <span class="link_name">Contacto</span>
                 </a>
             </li>
         </ul>
@@ -68,16 +58,17 @@
     <main>
         <section class="presentacion">
             <div class="mi_info">
-                <p>¡Hola!</p>
-                <h1>Yo soy Andrés Julián Álvarez Espinosa</h1>
-                <p>Ingeniero en diseño de entretenimiento digital</p>
+                <p class="subtitle">¡Hola!</p>
+                <h1 class="title">Mi nombre es</h1>
+                <h1 class="title">Andrés Julián Álvarez Espinosa</h1>
+                <p class="subtitle">Ingeniero en diseño de entretenimiento digital</p>
             </div>
         </section>
 
         <section class="sobre_mi">
             <img src="./resources/imgs/Mi foto.jpg" alt="Mi foto" width="20%">
-            <h1>Sobre mí</h1>
-            <p>
+            <h1 class="title">Sobre mí</h1>
+            <p class="text">
                 Soy un practicante de Ingenieria en diseño de entretenimiento digital de la Universidad Pontificia
                 Bolivariana y
                 egresado del colegio Calasanz. Busco enfocarme en el desarrollo de videojuegos, tengo experiencia
@@ -90,45 +81,45 @@
         </section>
 
         <section class="habilidades">
-            <h1>Habilidades</h1>
+            <h1 class="title">Habilidades</h1>
             <ul>
-                <li>Idiomas</li>
+                <li class="subtitle">Idiomas</li>
                 <ol>
-                    <li>Español</li>
-                    <P>Nativo</P>
-                    <li>Inglés</li>
-                    <p>B2</p>
-                    <li>Alemán</li>
-                    <p>A1</p>
+                    <li class="text">Español</li>
+                    <P class="text">Nativo</P>
+                    <li class="text">Inglés</li>
+                    <p class="text">B2</p>
+                    <li class="text">Alemán</li>
+                    <p class="text">A1</p>
                 </ol>
-                <li>Programación</li>
+                <li class="subtitle">Programación</li>
                 <ol>
-                    <li>C#</li>
-                    <p>Intermedio</p>
-                    <li>Phyton</li>
-                    <p>Básico</p>
-                    <li>html</li>
-                    <p>Básico</p>
+                    <li class="text">C#</li>
+                    <p class="text">Intermedio</p>
+                    <li class="text">Phyton</li>
+                    <p class="text">Básico</p>
+                    <li class="text">html</li>
+                    <p class="text">Básico</p>
                 </ol>
-                <li>Desarrollo de videojuegos</li>
+                <li class="subtitle">Desarrollo de videojuegos</li>
                 <ol>
-                    <li>Unity</li>
-                    <p>Intermedio</p>
-                    <li>Unreal</li>
-                    <p>Básico</p>
+                    <li class="text">Unity</li>
+                    <p class="text">Intermedio</p>
+                    <li class="text">Unreal</li>
+                    <p class="text">Básico</p>
                 </ol>
             </ul>
         </section>
 
         <section class="mis_proyectos">
-            <h1>Mis proyectos</h1>
+            <h1 class="title">Mis proyectos</h1>
             <div class="carrusel_proyectos">
                 <figure>
                     <img src="./resources/imgs/Spatial Bravery.png" alt="Spatial Bravery" width="30%">
                     <figcaption>Spatial Bravery</figcaption>
                     <div class="spatial_bravery_info">
-                        <h1>Spatial Bravery</h1>
-                        <p>
+                        <h1 class="title">Spatial Bravery</h1>
+                        <p class="text">
                             Spatial Bravery es un juego en el que debes restaurar tu nave en cierto tiempo mientras
                             luchas contra diferentes
                             tipos de torretas que trataran de evitar que cumplas tu objetivo. Debes ser rápido y
@@ -146,8 +137,8 @@
                     <img src="./resources/imgs/Where's My Mind.png" alt="Where's My Mind" width="30%">
                     <figcaption>Where's My Mind?</figcaption>
                     <div class="where's_my_mind_info">
-                        <h1>Where's My Mind?</h1>
-                        <p>
+                        <h1 class="title">Where's My Mind?</h1>
+                        <p class="text">
                             Where's My Mind? es un juego tipo puzzle donde debes recorrer un laberinto mientras esquivas
                             obstaculos que
                             te distraeran, al final del laberinto encontrarás la motivación para seguir estudiando.
@@ -158,8 +149,8 @@
                     <img src="./resources/imgs/Phantomized.jpg" alt="Phantomized" width="30%">
                     <figcaption>Phantomized</figcaption>
                     <div class="phantomized_info">
-                        <h1>Phantomized</h1>
-                        <p>
+                        <h1 class="title">Phantomized</h1>
+                        <p class="text">
                             Phantomized es un juego VR de terror cómico, en el que serás tú el fantasma y deberás
                             asustar a las
                             personas que están invadiendo tu propiedad, para esto tienes diversas habilidades donde
@@ -181,7 +172,7 @@
         </section>
 
         <section class="contacto">
-            <h1>Contacto</h1>
+            <h1 class="title">Contacto</h1>
             <form action="" autocomplete="on">
                 <label for="correo">
                     <span>Tu correo:</span>

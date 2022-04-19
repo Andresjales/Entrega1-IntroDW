@@ -1,0 +1,11 @@
+html{
+    font-size: 2vw;
+}
+
+:root{
+    --font-size-text: 0.9em;
+    --font-size-subtitle: 1em;
+    --font-size-title: 1.8em;
+
+    --scaling-mini: 1em;
+}
