@@ -175,22 +175,48 @@
         </section>
 
         <section class="contacto">
-            <h1 class="title">Contacto</h1>
-            <form action="" autocomplete="on">
-                <label for="correo">
-                    <span>Tu correo:</span>
-                    <input type="text" id="correo" placeholder="Correo electrónico" name="correo" required>
-                </label><br>
-                <label for="asunto">
-                    <span>Asunto:</span>
-                    <input type="text" id="asunto" name="asunto">
-                </label><br>
-                <label for="mensaje">
-                    <span>Mensaje:</span><br>
-                    <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
-                </label>
-                <button>Enviar</button>
-            </form>
+            <h1 class="logo_contacto">Contacto</h1>
+
+            <div class="fondo_contacto">
+                <div class="form_contacto">
+                    <h3>Contáctame</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="nombre">
+                        </p>
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Teléfono</label>
+                            <input type="tel" name="telefono">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="asunto">
+                        </p>
+                        <p class="bloque">
+                            <label>Mensaje</label> 
+                            <textarea name="mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="bloque">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="info_contacto">
+                    <h4>Más Información</h4>
+                    <ul>
+                        <li><i class="mi_ubicacion"></i> Medellín, Colombia</li>
+                        <li><i class="mi_telefono"></i> +57 304 358 3932</li>
+                        <li><i class="mi_email"></i> andresjales@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 </body>

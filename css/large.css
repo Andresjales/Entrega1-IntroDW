@@ -9,3 +9,16 @@ html{
 
     --scaling-mini: 0.7em;
 }
+
+.fondo_contacto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.fondo_contacto > * {
+    padding: 2em;
+}
+.info_contacto h4,
+.info_contacto ul{
+    text-align: left;
+    margin: 0 0 7rem 0;
+}
