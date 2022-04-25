@@ -1,11 +1,50 @@
+:root{
+    --font-size-text: 0.7em;
+    --font-size-subtitle: 1em;
+    --font-size-title: 1.8em;
+}
+
 html{
     font-size: 2vw;
 }
 
-:root{
-    --font-size-text: 0.9em;
-    --font-size-subtitle: 1em;
-    --font-size-title: 1.8em;
+/* Barra de navegación */
 
-    --scaling-mini: 1em;
+header{
+    top: 50%;
+    bottom: unset;
+    right: 0;
+    left: unset;
+    width: 8.5em;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+}
+
+header ul{
+    display: block;
+}
+
+header ul li{
+    position: relative;
+    height: 4em;
+    display: flex;
+    align-items: center;
+}
+
+header ul li a{
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.link_name{
+    display: block;
+}
+
+/* Main */
+
+/* Presentación */
+
+.mi_info{
+    align-items: flex-start;
 }
