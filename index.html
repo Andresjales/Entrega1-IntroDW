@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Esta es la página del reto 1">
+    <meta name="description" content="Este es mi portafolio">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Andresjales</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/medium.css" media="screen and (min-device-width: 650px)">
     <link rel="stylesheet" href="./css/large.css" media="screen and (min-device-width: 1000px)">
+    <script src="./js/main.js" defer></script>
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -19,35 +20,35 @@
     <header>
         <ul class="nav_list">
             <li>
-                <a href="">
+                <a href="#section_0" id="button_0" onclick="cambioVista(this)">
                     <!-- <i class='bx bx-badge'></i> -->
                     <i class='bx bxs-badge'></i>
                     <span class="link_name">Presentación</span>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#section_1" id="button_1" onclick="cambioVista(this)">
                     <!-- <i class='bx bx-badge'></i> -->
                     <i class='bx bxs-badge'></i>
                     <span class="link_name">Sobre Mí</span>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#section_2" id="button_2" onclick="cambioVista(this)">
                     <!-- <i class='bx bx-badge'></i> -->
                     <i class='bx bxs-badge'></i>
                     <span class="link_name">Habilidades</span>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#section_3" id="button_3" onclick="cambioVista(this)">
                     <!-- <i class='bx bx-badge'></i> -->
                     <i class='bx bxs-badge'></i>
                     <span class="link_name">Mis Proyectos</span>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#section_4" id="button_4" onclick="cambioVista(this)"> 
                     <!-- <i class='bx bx-badge'></i> -->
                     <i class='bx bxs-badge'></i>
                     <span class="link_name">Contacto</span>
@@ -56,7 +57,7 @@
         </ul>
     </header>
     <main>
-        <section class="presentacion">
+        <section id="section_0" class="presentacion">
             <div class="mi_info">
                 <p class="subtitle">¡Hola!</p>
                 <h1 class="title">Mi nombre es</h1>
@@ -65,7 +66,7 @@
             </div>
         </section>
 
-        <section class="sobre_mi">
+        <section id="section_1" class="sobre_mi hidden">
             <div class="titulo_sobre_mi">
                 <img src="./resources/imgs/Mi foto.jpg" alt="Mi foto">
                 <h1 class="title">Sobre Mí</h1>
@@ -83,7 +84,7 @@
             </div>
         </section>
 
-        <section class="habilidades">
+        <section id="section_2" class="habilidades hidden">
             <h1 class="title">Habilidades</h1>
             <ul>
                 <li class="subtitle">Idiomas</li>
@@ -106,7 +107,7 @@
             </ul>
         </section>
 
-        <section class="mis_proyectos">
+        <section id="section_3" class="mis_proyectos hidden">
             <h1 class="title">Mis proyectos</h1>
             <div class="carrusel_proyectos">
                 <figure>
@@ -166,7 +167,7 @@
             </div>
         </section>
 
-        <section class="contacto">
+        <section id="section_4" class="contacto hidden">
             <h1 class="logo_contacto">Contacto</h1>
 
             <div class="fondo_contacto">

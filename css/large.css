@@ -8,6 +8,39 @@ html{
     font-size: 1.5vw;
 }
 
+/* Barra de navegación */
+
+header{
+    top: 50%;
+    bottom: unset;
+    right: 0;
+    left: unset;
+    width: 8.5em;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+}
+
+header ul{
+    display: block;
+}
+
+header ul li{
+    position: relative;
+    height: 4em;
+    display: flex;
+    align-items: center;
+}
+
+header ul li a{
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.link_name{
+    display: block;
+}
+
 .fondo_contacto {
     display: grid;
     grid-template-columns: 2fr 1fr;
